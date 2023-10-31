@@ -1,0 +1,14 @@
+---
+apiVersion: eksctl.io/v1alpha5
+kind: ClusterConfig
+
+metadata:
+  name: rka-eks
+  region: sa-east-1
+  tags:
+    project: running-kubernetes-on-aws
+
+nodeGroups:
+  - name: worker-node
+    instanceType: m5.large
+    desiredCapacity: 3

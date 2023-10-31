@@ -1,0 +1,4 @@
+account number: 740781822140
+region: sa-east-1
+cluster name: rka-eks
+kser arn: arn:aws:iam::740781822140:user/eks-saymon
